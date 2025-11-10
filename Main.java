@@ -8,7 +8,7 @@ public class Main {
         System.out.print("\n" + singleton2.getData());
         System.out.println("\n" + singleton2);
 
-        // Both singleton1 and singleton2 should point to the same instance
+        // Both singleton1 and singleton2 should point to the same instance (shows only one instance of this class can exist)
         System.out.println("\nAre both instances the same? " + (singleton1 == singleton2));
     }
 }

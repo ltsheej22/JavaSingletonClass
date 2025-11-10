@@ -7,6 +7,7 @@ public class Singleton {
     this.data = data;
     }
 
+    // provides a global point of access to the Singleton instance
 public static Singleton getInstance(String data) {
     // Checks to see if a Singleton instance already exists
     if (instance == null) {
