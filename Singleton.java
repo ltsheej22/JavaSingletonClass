@@ -8,12 +8,12 @@ public class Singleton {
     }
 
 public static Singleton getInstance(String data) {
-    // Checks to see if an instance already exists
+    // Checks to see if a Singleton instance already exists
     if (instance == null) {
         // If not, creates a new Singleton instance
         instance = new Singleton(data);
         }
-    // Returns the existing or newly created instance
+    // Returns the existing or newly created  Singleton instance
     return instance;
     }
 
